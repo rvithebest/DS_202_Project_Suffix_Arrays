@@ -31,23 +31,6 @@ output through `hexdump`.
   `b` with probability `1/5000` and an `a` otherwise.
   Generated using `python3 gen-aaab.py`.
 
-### Results
-Each algorithm was executed 10 times to amortize the overhead of I/O.
-The presented slowdown is relative to the execution time of `linear`.
-
-input     | linear     | nlogn        | naive
-----------|------------|--------------|--------------
-`alice.txt` | 0.29s (1x) | 0.73s (2.5x) | 0.38s (1.3x)
-`aaab.txt`  | 1.15s (1x) | 3.19s (2.7x) | >10 minutes
-
-### Analysis
-`naive` can performs well on `alice.txt` because its suffixes have short LCPs
-and naive string comparison takes expected `O(1)` on random strings.
-However, `aaab.txt` demonstrates that it is much slower in the worst case.
-
-Since the execution of `nlogn` and `linear` is mostly independent from the
-contents of the text, they perform consistently across both inputs.
-With the provided implementations, `linear` is ~2.6x faster than `nlogn`.
 
 [sa-wikipedia]: https://en.wikipedia.org/wiki/Suffix_array
 [karkainen]: https://doi.org/10.1007/3-540-45061-0_73
