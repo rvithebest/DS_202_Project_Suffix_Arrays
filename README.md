@@ -12,7 +12,7 @@ Suffix array construction algorithms- Comparison of runtime of O(n), O(n log(n))
    The pre-compiled executable file is also included in the folder.
    Below is the link to the folder containing the input datasets on which we tested the KA algorithm-
    https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/vigneshr1_iisc_ac_in/EkZaFmaHWBJNgorUGemsAo0BA4o8nFtzWULvp6WiIciBFQ?e=ehpXyq
-3) KS algorithm (O(n)), O(n log(n)) algorithm, O(n^2 log(n))- Naive algorithm (Second Folder)-
+2) KS algorithm (O(n)), O(n log(n)) algorithm, O(n^2 log(n))- Naive algorithm (Second Folder)-
    Here, as mentioned above, this folder contains the implementation of the three algorithms and a comparison of their actual runtimes.
    KS Algorithm- (Juha Karkkainen, Peter Sanders, and Stefan Burkhardt. Linear work suffix array construction.
    Journal of the ACM, 53(6):918–936, November 2006)
