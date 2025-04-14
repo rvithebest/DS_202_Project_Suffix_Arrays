@@ -33,9 +33,7 @@ Suffix array construction algorithms- Comparison of runtime of O(n), O(n log(n))
    You can replace seq_Y_chrom.fasta with any other input file provided below (with appropriate location- on your system).
    Below is the link to the folder containing the input datasets on which we tested the above three algorithms-
    https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/vigneshr1_iisc_ac_in/Egk1EFNVCYlKnZFEzn5JdR4BkICZNW86zXQf0h1Gt2QUAw?e=tAMNi0
-   
-   
-   
+
    
    
    
