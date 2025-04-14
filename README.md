@@ -10,6 +10,8 @@ Suffix array construction algorithms- Comparison of runtime of O(n), O(n log(n))
    You can replace seq_Y_chrom.fasta with any other input file provided below (with appropriate location if not present in the current directory)
    Runtime of the algorithm would be also be printed in the terminal (standard output).
    Below is the link of the folder conatining the input datasets on which we tested the KA algorithm-
+   https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/vigneshr1_iisc_ac_in/EkZaFmaHWBJNgorUGemsAo0BA4o8nFtzWULvp6WiIciBFQ?e=ehpXyq
+   
    
    
    
